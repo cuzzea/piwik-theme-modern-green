@@ -1,0 +1,20 @@
+{
+    "name": "ModernGreen",
+    "description": "Modern Green theme for Piwik.",
+    "version": "0.1.0",
+    "theme": true,
+    "stylesheet": "stylesheets/theme.less",
+    "homepage": "",
+    "license": "GPL v3+",
+    "keywords": ["theme","green","modern"],
+    "authors": [
+        {
+            "name": "Vlad Rotaru",
+            "email": "cuzzea@gmail.com",
+            "homepage": "https://github.com/cuzzea/"
+        }
+    ],
+    "donate": {
+        "paypal": "cuzzea@gmail.com"
+    }
+}

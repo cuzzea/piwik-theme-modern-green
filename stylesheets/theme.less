@@ -1,0 +1,124 @@
+@TURQUOISE-lc:   #1ABC9C;
+@TURQUOISE-hc:   #16A085;
+
+@EMERALD-lc:   #2ECC71;
+@EMERALD-hc:   #27AE60;
+
+@BLUE-lc:   #3498DB;
+@BLUE-hc:   #2980B9;
+
+@BLACK-lc:   #34495E;
+@BLACK-hc:   #2C3E50;
+
+@GREY-lc:   #95A5A6;
+@GREY-hc:   #7F8C8D;
+
+@WHITE:   #fff;
+@GREY-light:   #ECF0F1;
+
+@theme-fontFamily-base: Lato,Helvetica,Arial,sans-serif;
+
+@theme-color-brand:                    @TURQUOISE-lc;
+@theme-color-background-base:          @WHITE;
+@theme-color-text:                     @BLACK-hc;
+@theme-color-widget-title-background:  @TURQUOISE-lc;
+@theme-color-text-lighter:             @BLACK-lc;
+@theme-color-link:                     @TURQUOISE-hc;
+@theme-color-widget-title-text:        @WHITE;
+
+/*
+@theme-color-background-lowContrast:   #ff0006;
+@theme-color-background-contrast:      #ff0007;
+@theme-color-background-highContrast:  #ff0008;
+@theme-color-base-series:              #ff0009;
+@theme-color-background-tinyContrast:  #ff0023;
+@theme-color-text-light:               #ff0001;
+@theme-color-background-lowContrast:   #ff0014;
+@theme-color-background-contrast:      #ff0015;
+@theme-color-background-highContrast:  #ff0016;
+@theme-color-border:                   #ff0017;
+*/
+
+@theme-color-text:                     @BLACK-hc;
+@theme-color-text-light:               @BLACK-lc;
+
+
+@theme-color-background-tinyContrast:  @TURQUOISE-hc;
+@theme-color-code-background:          @BLACK-hc;
+@theme-color-code:                     @GREY-light;
+
+@theme-color-widget-background:        @WHITE;
+@theme-color-widget-border:            @TURQUOISE-hc;
+/**/
+
+#root #secondNavBar.Menu--dashboard .navbar > li > .item:hover, #root #secondNavBar.Menu--dashboard .navbar > li > .item:focus,
+#root #secondNavBar .navbar > li > ul li .item:hover, #root #secondNavBar .navbar > li > ul li .item:focus{
+  color: @WHITE;
+}
+#root #secondNavBar .navbar > li > ul li.sfActive .item:hover{
+  color:@BLACK-hc;
+}
+#header{
+  background-color: @BLACK-lc;
+}
+#header #topRightBar .topBarElem{
+  padding: 17px 12px;
+  color: @WHITE;
+}
+#header_message,
+.SitesManager .sitesManagerList .site,
+.alert,
+.notification,
+.system.notification,
+.form-help,
+.borderedControl,
+.widget{
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+#root #secondNavBar.Menu--dashboard .navbar > li.sfActive ul{
+  background-color: @TURQUOISE-lc;
+}
+.form-radio, .form-checkbox{
+  background-image: url('plugins/ModernGreen/images/forms-sprite.png');
+}
+#root #secondNavBar .navbar > li > a.item[href=""]{
+  background-color: @TURQUOISE-lc;
+}
+.page{
+  background-color: @BLACK-hc;
+}
+#root #secondNavBar #search,
+.pageWrap{
+  background-color: @WHITE;
+}
+.pageWrap{
+  padding-bottom: 100px;
+}
+#root{
+  margin-bottom: 0;
+}
+
+/*
+
+#root .borderedControl, #standalone .borderedControl, .ui-dialog .borderedControl, .ngdialog .borderedControl{
+  border-radius: 5px;
+  background: #1abc9c;
+  color:white;
+  border: 1px solid #16A085;
+}
+
+.piwikSelector span.title, .piwikSelector a.title{
+  color:white;
+}
+
+.piwikSelector{
+}
+
+.widget{
+  border-radius: 5px;
+  border: 1px solid #BDC3C7;
+  background-color: #ECF0F1;
+}
+*/
